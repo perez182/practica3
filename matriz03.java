@@ -9,7 +9,7 @@ import java.nio.ByteBuffer;
 class Matriz
 {
   static Object lock = new Object();
-  static int N = 1000;
+  static int N = 2000;
   static double[][] A = new double[N][N];
   static double[][] B = new double[N][N];
   static double[][] C = new double[N][N];
